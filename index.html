@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+ </head>
+ <style type="text/css">
+     body {
+      background-image: url(fon.jpg);
+    background-size: 100%;
+     }
+ a{
+    color:#8B0000;
+    line-height: 2; 
+    text-decoration:none; 
+    cursor: pointer; 
+    position:relative; 
+}
+a:after {
+    background-color: #8B0000;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0px;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+ </style>
+ <body>
+ 	<div style="margin-bottom: 50px;
+ 	            font-size: 40px;
+ 	            text-align: center;
+                color: beige;
+                  padding: 5px;
+            padding-right: 20px; 
+            border: double 10px #8500d3 ;
+          
+            float:center;
+            margin: 5px;
+    background: #d0c9d4;
+          color: black;">
+ 	POSOLSTVO 1912 ENTARTAINMENT представляет <br>
+ 	<a href="sveta.html">Жизнь Светочки Демух</a>
+    </div>
+ 
+ </body>
+</html>
